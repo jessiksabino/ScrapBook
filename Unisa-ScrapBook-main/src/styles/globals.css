@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Play:wght@400;700&family=Poppins:wght@100;400;500;600;700&family=Roboto:wght@500&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #0f0f0f;
+}
+html{
+  font-family: Poppins, sans-serif;
+}
+html, body{
+  height: 100%;
+}
+button{
+  border: none;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 8px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #c21717; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000; 
+}
+
+@media (max-width:525px) {
+  h1, h2{
+    font-size: 20px;
+  }
+  span{
+    font-size: 12px!important;
+  }
+  strong{
+    font-size: 13px;
+  }
+  button{
+    font-size: 12px;
+  }
+  ul li{
+    font-size: 10px!important;
+  }
+  svg{
+    font-size: 5px!important;
+    width: 25px;
+  }
+  a{
+    font-size: 15px!important;
+  }
+  p{
+    font-size: 15px!important;
+  }
+}
+@media (max-width:525px){
+  strong{
+    font-size: 12px;
+  }
+  button{
+    font-size: 10px;
+  }
+}
